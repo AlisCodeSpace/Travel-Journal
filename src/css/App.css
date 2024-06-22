@@ -1,0 +1,67 @@
+/* Navbar */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar h2 {
+    color: white;
+}
+
+/* Journal */
+
+.journal--container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 40px;
+    margin-top: 40px;
+    height: 170px;
+}
+
+.journal--location {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: 20px;
+    font-size: 10px;
+}
+
+.journal--location p {
+    letter-spacing: 2px;
+}
+
+.journal--location a {
+    color: #918E9B;
+}
+
+.journal--title h1 {
+    margin: 0;
+    padding: 6px 0px 16px 0px;
+    font-size: 25px;
+}
+
+.journal--date p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.journal--description p{
+    margin: 0;
+    padding-top: 6px;
+    font-size: 12px;
+    max-width: 500px;
+}
